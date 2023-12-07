@@ -1,7 +1,7 @@
 {
   "description": "Navigateur Chrome pour accéder aux ressources internes du lab",
   "docker_registry": "https://aap2.ser-techsupport.local/",
-  "image_src": "chromium.png",
+  "image_src": "chrome.png",
   "name": "mtplab-kasm-chrome:latest",
   "run_config": {
     "hostname": "kasm"
@@ -17,7 +17,7 @@
   "categories": [
     "Browser"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Chrome Lab",
   "architecture": [
     "amd64",
     "arm64"
