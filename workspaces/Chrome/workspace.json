@@ -4,7 +4,12 @@
   "image_src": "chrome.png",
   "name": "mtplab-kasm-chrome:latest",
   "run_config": {
-    "hostname": "kasm"
+    "hostname": "kasm",
+    "environment": {
+      "http_proxy": "http://10.78.13.24:80/",
+      "https_proxy": "http://10.78.13.24:80/",
+      "NO_PROXY": "192.168.0.0/16, *.ser-techsupport.local, *.dell.com, *.supportlabs.dell"
+    }
   },
   "exec_config": {
     "go": {
