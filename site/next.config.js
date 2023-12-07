@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'Kasm Workspaces',
     description: 'Kasm Workspaces for Mtp Lab env.',
     icon: '/img/logo.svg',
-    listUrl: 'https://github.com/tperrindell/kasm-registry/',
+    listUrl: 'https://tperrindell.github.io/kasm-registry/',
     contactUrl: 'none',
   },
   reactStrictMode: true,
